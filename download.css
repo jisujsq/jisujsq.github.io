@@ -1,0 +1,193 @@
+body {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f8fdff), to(#e2fdff));
+    background-image: -webkit-linear-gradient(bottom, #f8fdff 0%, #e2fdff 100%);
+    background-image: linear-gradient(0deg, #f8fdff 0%, #e2fdff 100%);
+    min-height: 100vh;
+    /*padding-bottom: 1rem;*/
+}
+
+.wechat-tips {
+    padding-right: 1.06rem;
+    text-align: right;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-family: RTWSYueGoTrial-Regular;
+    font-size: 0.9rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1.97rem;
+    line-height: 1.25rem;
+}
+.wechat-text {
+    background: -webkit-gradient(linear, left bottom, left top, from(#16abf1), to(#2ed9db));
+    background: -webkit-linear-gradient(bottom, #16abf1 0%, #2ed9db 100%);
+    background: linear-gradient(0deg, #16abf1 0%, #2ed9db 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.indicator {
+    position: absolute;
+    width: 0.75rem;
+    height: 0.656rem;
+    margin-left: -0.375rem;
+    left: 50%;
+    top: -1.556rem;
+}
+.browser {
+    position: relative;
+    height: 1.9rem;
+    width: 1.9rem;
+    margin-left: 0.69rem;
+    border-radius: 0.312rem;
+    -webkit-box-shadow: 0rem 0.17rem 0.33rem 0rem rgba(142, 211, 255, 0.97);
+    box-shadow: 0rem 0.17rem 0.33rem 0rem rgba(142, 211, 255, 0.97);
+}
+.browser-logo,
+.freeer-screen {
+    display: block;
+}
+.freeer-screen {
+    margin: 3.03rem auto 0 auto;
+    width: 15.156rem;
+    height: 23.593rem;
+}
+.download-btn {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: block;
+    width: 13.39rem;
+    height: 3.08rem;
+    background-image: -webkit-gradient(linear,
+    left top, right top,
+    from(#299cfe),
+    to(#4fd2f5)),
+    -webkit-gradient(
+            linear,
+            left top, left bottom,
+            from(#000000),
+            to(#000000));
+    background-image: -webkit-linear-gradient(left,
+    #299cfe 0%,
+    #4fd2f5 100%),
+    -webkit-linear-gradient(
+            #000000,
+            #000000);
+    background-image: linear-gradient(90deg,
+    #299cfe 0%,
+    #4fd2f5 100%),
+    linear-gradient(
+            #000000,
+            #000000);
+    background-blend-mode: normal,
+    normal;
+    -webkit-box-shadow: 0rem 0.17rem 0.74rem 0rem
+    rgba(142, 211, 255, 0.97);
+    box-shadow: 0rem 0.17rem 0.74rem 0rem
+    rgba(142, 211, 255, 0.97);
+    border-radius: 1.53rem;
+    font-family: RTWSYueRoudGoDemo-Regular;
+    font-size: 1.24rem;
+    color: white;
+}
+.download-guide {
+    text-align: center;
+    font-family: RTWSYueGoTrial-Regular;
+    font-size: 1.09rem;
+    color: #3cb9fa;
+}
+.guide-title {
+    margin-top: 0.82rem;
+}
+.guide-i {
+    width: 0.75rem;
+    height: 0.656rem;
+    -webkit-transform: rotate(180deg) scale(1.3);
+    transform: rotate(180deg) scale(1.3);
+}
+.guide {
+    display: block;
+    margin: 0 auto;
+    -webkit-box-shadow: 0rem 0.17rem 0.43rem 0rem
+    rgba(67, 194, 248, 0.38);
+    box-shadow: 0rem 0.17rem 0.43rem 0rem
+    rgba(67, 194, 248, 0.38);
+    border-radius: 1.55rem;
+    margin-top: 1.82rem;
+}
+.guide-1 {
+    width: 14.09375;
+    height: auto;
+}
+.enjoy-tips {
+    font-family: RTWSYueGoTrial-Regular;
+    font-size: 1.03rem;
+    color: #3cb9fa;
+    margin-top: 2.13rem;
+    padding-bottom: 6.77rem;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.bg{
+    /*background:url('bg.jpg')no-repeat;*/
+    width:100%;
+    /*height:100%;*/
+    /*background-size:100% 100%;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    /*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg-login.png',sizingMethod='scale');*/
+}
+
+/*.bg{*/
+    /*width: 100%;*/
+    /*background: url('bg.jpg') no-repeat;*/
+    /*background-size: 100% auto;*/
+/*}*/
+
+/*.bg:before{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*padding-top: 100%;*/
+/*}*/
+
+.bg-img {
+    display: block;
+    width: 100%;
+}
+
+.page {
+    position: relative;
+}
+
+
+.download-w {
+    width: 100%;
+    position: fixed;
+    bottom: 1.25rem;
+    z-index: 1;
+}
+
+#download {
+    display: block;
+    width: 16rem;
+    height: 5.75rem;
+    /*background-image: url("btn@2x.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}

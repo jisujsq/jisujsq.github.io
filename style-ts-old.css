@@ -1,0 +1,162 @@
+*{ margin: 0; padding: 0; font-family: Arial, "Microsoft Yahei"; }
+li{ list-style-type: none; }
+a{ text-decoration: none; }
+
+.wrap{  width: 100%; background: url("https://cache.kolacdn.xyz/transocks/index/img/bg-pro-pc.png");  }
+.content{ padding-top: 3%; }
+.content .left-txt{padding: 1px 0 0 0; }
+
+.left-txt>h1 span{ display: inline-block; font-size: 48px; color: #000; font-weight: normal; vertical-align: top; margin-top: 40px; }
+.left-txt>p{ font-size: 20px; line-height: 38px; color: #000; }
+.left-txt .logo{ width: 114px; height: 114px; border-radius: 10px;  vertical-align: top; }
+
+/*浜岀淮鐮�*/
+.qr-box{ margin: 6% 0 0 0; font-size: 18px; overflow: hidden; }
+.qr-div{ float: left; }
+.qr-img{ width: 160px; height: 160px; }
+.qr-img img{ width: 100%; }
+.qr-free{ padding-right: 40px; }
+.qr-pro{ padding-left: 40px; }
+
+.dashed{ height: 233px; width: 0px; border: 1px dashed #72abc0; margin-top: 33px; }
+
+/*浜у搧鐗圭偣*/
+.features{ padding-top: 35px; margin-left: 40px; }
+.features li{ display: block; margin: 0 0 13px 0; height: 43px; line-height: 43px; font-size: 18px }
+/*鍥炬爣*/
+.f-icon{ display: inline-block; vertical-align: middle; width: 43px; height: 43px;; background: url(https://cache.kolacdn.xyz/transocks/index/img/sprites.png) no-repeat; margin-right: 10px; }
+.vip{ background-position: -60px -200px; }
+.no-ad{ background-position: -110px -200px; }
+.more-func{ background-position: -160px -200px; }
+
+/*鎸夐挳*/
+.button{ text-align: center; border-radius: 3px; margin-top: 25px; }
+.button>a{ display: inline-block; height: 100%; text-decoration: none; color: #fff; }
+.button:hover{ opacity: 0.8; }
+.free-btn, .pro-btn{ width: 160px; height: 48px; line-height: 48px; }
+.tv-btn, .pc-btn{ width: 75px; height: 48px; line-height: 48px; }
+.free-btn, .free-btn-m{ background: #3acbaf; }
+.tv-btn, .tv-btn-m{ background: #0080FF; }
+.pc-btn, .pc-btn-m{ background: #FF5161; }
+.pro-btn, .pro-btn-m{ background: #000; }
+/*.ios-btn, .android-btn{ display: none; }
+.ios_pc_btn, .android_pc_btn{ display: block; width: 160px; height: 40px; background: url(../img/sprite.png) no-repeat; }
+.ios_pc_btn{ background-position: -32px -125px; }
+.ios_pc_btn:hover{ background-position: -232px -125px; }
+.android_pc_btn{ background-position: -32px -46px; }
+.android_pc_btn:hover{ background-position: -232px -46px; }*/
+
+.green-dl, .black-dl{ display: inline-block; vertical-align: top; margin-top: 2px; background: url(https://cache.kolacdn.xyz/transocks/index/img/sprites.png) no-repeat; width: 16px; height: 20px;  margin-right: 6px; }
+.green-dl{ background-position: -110px -260px; }
+.black-dl{ background-position: -60px -260px; }
+
+/*鍙宠竟鐨勫浘*/
+.content .right-part{ padding: 0; margin-top: 6%; }
+.right-img{ height: 630px; position: relative; width: 590px; padding: 0; }
+/*.right-img div img{ width: 100%; }*/
+.right-img .black, .right-img .comments{ width: 282px; position: absolute; right: 0; top: 30px; text-align: left; }
+.right-img .white{ width: 312px; position: absolute; right: 263px; z-index: 1000; }
+
+.comments{ height: 570px; background: url(https://cache.kolacdn.xyz/transocks/index/img/black_frame.png) no-repeat; z-index: 1; }
+.comments_div{ height: 390px; width: 244px; position: relative; top: 107px; left: 19px; overflow: hidden; }
+.comments_list{ width: 244px; padding: 0 15px; overflow: hidden; top: 0; position: absolute; margin: 0; }
+.comments_list li{ padding: 10px 0 15px 0; height: 130px; border-bottom: 1px solid #eee; }
+.cmt_title, .cmt_author{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cmt_title{ font-size: 16px; width: 12em; color: #333; font-weight: bold; margin: 0 0 10px 0; }
+.cmt_stars{ width: 96px; height: 16px; background: url("https://cache.kolacdn.xyz/transocks/index/img/sprites.png") no-repeat; margin: 0 0 5px 0; background-position: -60px -20px; }
+.cmt_text, .cmt_info{ font-size: 13px; height: 23px; line-height: 23px; color: #666; margin: 0; }
+.cmt_author{ display: inline-block; max-width: 8em; vertical-align: bottom; }
+.cmt_text{ font-weight: bold; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; height: 46px; overflow: hidden; }
+
+.right-img-m, .qr-box-m{ display: none; }
+.right-part{ display: inline-block; }
+
+/*搴曢儴淇℃伅鏍�*/
+.footer{ width: 100%; margin-top: 50px; text-align: center; }
+.footer p{ height: 20px; line-height: 20px; font-size: 14px; text-align: center; }
+.footer p>a{ color: #333; }
+.footer p>span{ margin: 0 2px 0 5px; }
+.cut-off{ display: inline-block; height: 16px; width: 1px; background: #333; }
+
+
+/*淇℃伅椤甸潰*/
+.info-wrap{ display: block; margin-top: 145px; }
+.white-bg{ background: #fff; padding: 30px 0 0 0; opacity: 0.88; }
+.info-dir{ background: #fff; margin-top: 145px; padding: 0; opacity: 0.88; }
+.info-dir li{ display: block; height: 48px; line-height: 48px; text-align: center; color: #666; cursor: pointer; }
+.info-dir li:hover{ background: #eee; color: #333; }
+.info-dir li.active{ background: #3acbaf; color: #fff; }
+
+.info-content{ min-height: 70vh; padding: 0 22px; display: none; }
+.info-content h3{ margin: 5px 0 26px; }
+.info-content>hr{ width: 100%; height: 1px; border: none; background: url(https://cache.kolacdn.xyz/transocks/index/img/green-line.png) repeat-x; margin: 0; }
+.info-text{ padding: 10px 0; text-align: left; }
+.info-text>p{ line-height: 26px; }
+.info-text>p.indent{ text-indent: 2em; }
+.header{ position: fixed; top: 0; left: 0; background: url(https://cache.kolacdn.xyz/transocks/index/img/header-bg.png) repeat-x ; background-size: cover; z-index: 1000; width: 100%; height: 96px; }
+.logo-sm{ width: 50px; height: 50px; margin-top: 23px; margin-left: -15px; margin-right: 1em; }
+.header p{ font-size: 30px; line-height: 96px; }
+@media screen and (max-width: 1025px){ /*ipad*/
+    .qr-div{ float: none; display: inline-block; vertical-align: top; }
+}
+
+@media screen and (min-width: 993px){
+    .qr-div{ float: none; display: inline-block; vertical-align: top; }
+    .left-txt>h1{ height: 114px; margin-bottom: 42px; }
+    .left-txt .logo{ width: 100px; height: 100px; }
+    .left-txt>h1 span{ font-size: 36px; margin-top: 30px; }
+}
+@media screen and (max-width: 992px){
+    .container{ text-align: center; }
+    .right-img{ margin: 10% auto; }
+    .qr_table{ margin: 10% auto 0; }
+
+}
+
+@media screen and (max-width: 767px){
+    .qr_table, .left-txt>p span, .right-img, .qr-box{ display: none; }
+    .ios-btn, .android-btn, .right-img-m{ display: block; }
+    .wrap{ background: url("https://cache.kolacdn.xyz/transocks/index/img/bg-pro-m.png"); background-size: cover; }
+    .content{ padding: 0; }
+    .left-txt .logo{ width: 1.14rem; height: 1.14rem; }
+    .left-txt>h1{ margin-bottom: 0; }
+    .left-txt>h1 span{ display: block; height: 0.60rem; font-size: 0.48rem; margin-top: 0.2rem; line-height: 0.60rem; }
+    .left-txt>p{ padding: 0 10px; font-size: 0.3rem; line-height: 0.57rem; margin: 0; }
+    .left-txt .subtitle { margin-bottom: 20px; }
+    .right-img-m img{ margin: 30px auto 0; width: 70%; }
+    /*.ios-btn a, .android-btn a{ display: block; width: 4.8rem; height: 0.64rem; margin: 0 auto 0.3rem; }
+    .ios-btn a{ background: url("../img/ios_btn.png") no-repeat; background-size: cover; }
+    .android-btn a{ background: url("../img/android_btn.png") no-repeat; background-size: cover; }
+    }*/
+    .button{ display: inline-block; }
+    .button a{ font-size: 0.3rem; }
+    .button a>span{ font-size: 0.22rem; }
+    .qr-box-m{ display: table; font-size: 0.24rem; width: 100%; }
+    .pro-btn-m, .free-btn-m{ width: 2.4rem; padding: 0.1rem 0; }
+    .tv-btn-m, .pc-btn-m{ width: 2.4rem; padding: 0.1rem 0; }
+
+    .qr-box-m td>p{ width: 2.4rem; margin: 15px auto 0; text-align: left; }
+    .f-icon{ background-size: 3.6rem 3.2rem; width: 0.45rem; height: 0.45rem; }
+    .vip{ background-position: -0.6rem -2rem; }
+    .no-ad{ background-position: -1.1rem -2rem; }
+    .more-func{ background-position: -1.6rem -2rem; }
+    .rocket{ background-position: -2.1rem -2rem; }
+    .nouser{ background-position: -2.6rem -2rem; }
+    .fast{ background-position: -3.1rem -2rem; }
+
+    .header{ height: 1.1rem; padding: 0 0.36rem; background-size: contain; }
+    .header p{ font-size: 0.3rem; text-align: center; line-height: 1rem; }
+    .logo-sm{ height: 0.48rem; width: 0.48rem; margin-top: 0.24rem; }
+
+    .info-wrap{ margin: 1rem 0 0 0; padding: 0; }
+    .white-bg{ padding: 0; }
+    .info-dir{ font-size: 0; border-bottom: 1px solid #e5e5e5; width: 100%; position: fixed; top: 1rem; z-index: 100; background: #fff; margin-top: 0; padding: 0; opacity: 1; }
+    .info-dir li{ display: inline-block; width: 25%; font-size: 0.3rem; color: #999; height: 0.9rem; line-height: 0.9rem; }
+    .info-dir li.active{ background: #fff; color: #333; }
+    .info-content{ padding: 0.2rem 0.36rem; min-height: 60vh; }
+    .info-content h3, .info-content>hr{ display: none; }
+    .info-text{ border: none; padding: 0; text-align: left; }
+    .info-text>p{ color: #333; font-size: 0.28rem; line-height: 0.5rem; }
+
+    .footer p{ font-size: 0.24rem; }
+}

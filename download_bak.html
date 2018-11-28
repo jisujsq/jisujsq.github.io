@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, telephone=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+    <meta http-equiv="Cache-Control" content="max-age=0" />
+    <title>立即下载</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="download.css" />
+</head>
+<body>
+<script>
+  (function (w) {
+    function resetRem() {
+      var designWidth = 375;
+      w.REM_SCALE = w.innerWidth / designWidth;
+      document.documentElement.style.fontSize = w.REM_SCALE * 16 + 'px';
+      document.body.style.fontSize = '1rem';
+    }
+    resetRem();
+    window.onresize = resetRem;
+  })(window);
+</script>
+<div class="wechat-tips" id="wechat-tips">
+    <!--<div class="wechat-text">-->
+        <!--请点击右上角<br />使用safari浏览器打开-->
+    <!--</div>-->
+    <!--<div class="browser">-->
+        <!--<img-->
+                <!--class="indicator"-->
+                <!--src="./images/download/up-triangle@2x.png"-->
+                <!--srcset="./images/download/up-triangle@2x.png 2x, ./images/download/up-triangle@3x.png 3x"-->
+                <!--alt=""-->
+        <!--&gt;-->
+        <!--<img-->
+                <!--class="browser-logo"-->
+                <!--src="./images/download/browser-logo@2x.png"-->
+                <!--srcset="./images/download/browser-logo@2x.png 2x, ./images/download/browser-logo@3x.png 3x"-->
+                <!--alt=""-->
+        <!--&gt;-->
+    <!--</div>-->
+</div>
+<img
+        class="freeer-screen"
+        src="freeer-screen@3x.png"
+>
+<button class="download-btn" id="download">
+    立即下载
+</button>
+
+<div class="download-guide" id="download-guide">
+    <p class="guide-title">支持iOS Android双系统</p>
+    <p class="guide-title">安装说明</p>
+    <img
+            class="guide-i"
+            src="up-triangle@2x.png"
+            srcset="up-triangle@2x.png 2x"
+            alt=""
+    >
+    <img
+            class="guide guide-1"
+            src="guide-1@2x.png"
+            srcset="guide-1@2x.png 2x"
+            alt=""
+    >
+    <img
+            class="guide guide-2"
+            src="guide-2@2x.png"
+            srcset="guide-2@2x.png 2x"
+            alt=""
+    >
+    <img
+            class="guide guide-3"
+            src="guide-3@2x.png"
+            srcset="guide-3@2x.png 2x"
+            alt=""
+    >
+    <p class="enjoy-tips">
+        打开APP，和世界Say Hello!
+    </p>
+</div>
+<script>
+
+  var LINK = 'itms-services://?action=download-manifest&url=https://www.freeer.app/freeer.plist';
+
+  function isAndroid(){
+    var u = navigator.userAgent;
+    if(u.indexOf('Android') > -1 || u.indexOf('Linux') > -1){
+      return true;
+    }
+  }
+  if(isAndroid()){
+    LINK="/download/Freeer.apk";
+  }
+  //判断是否是微信浏览器的函数
+  function isWeiXin(){
+    //window.navigator.userAgent属性包含了浏览器类型、版本、操作系统类型、浏览器引擎类型等信息，这个属性可以用来判断浏览器类型
+    var ua = window.navigator.userAgent.toLowerCase();
+    //通过正则表达式匹配ua中是否含有MicroMessenger字符串
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+      return true;
+    }else{
+      return false;
+    }
+  }
+  // =====
+  document.getElementById('download').addEventListener('click', function() {
+    var anchor = document.createElement('a');
+    anchor.href = LINK;
+    anchor.click();
+  });
+
+  // if (isWeiXin()) {
+  //   document.getElementById('download-guide').style.display = 'none';
+  // } else {
+  //   document.getElementById('wechat-tips').style.display = 'none';
+  // }
+</script>
+
+</body>
+</html>
