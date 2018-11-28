@@ -31,15 +31,17 @@
 </style>
 <div class="page">
 
-    <div class="download-w">
-        <a id="download" href="#"></a>
+ <div class="download-w">
+        <span id="download"></span>
     </div>
+
+    
 <div class="bg">
     <img class="bg-img" src="bg3.jpg" alt="">
 </div>
 <script>
 
-  var LINK = 'itms-services://?action=download-manifest&url=https://www.freeer.app/freeer.plist';
+  var LINK = 'https://itunes.apple.com/cn/app/id1345301170';
 
   function isAndroid(){
     var u = navigator.userAgent;
@@ -48,7 +50,7 @@
     }
   }
   if(isAndroid()){
-    LINK="/download/Freeer.apk";
+    LINK="https://github.com/jisujsq/Android/blob/master/abc.apk?raw=true";
   }
   //判断是否是微信浏览器的函数
   function isWeiXin(){
